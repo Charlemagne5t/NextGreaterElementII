@@ -4,7 +4,7 @@ import org.junit.Test;
 public class SolutionTest {
     @Test
     public void nextGreaterElementsTest1() {
-        int[] nums = {1, 2, 3};
+        int[] nums = {1, 2, 1};
         int[] expected = {2, -1, 2};
         int[] actual = new Solution().nextGreaterElements(nums);
 
